@@ -25,17 +25,13 @@ body {
 
 .jumbotron {
   width: 100vw;
-  height: 25vh;
+  height: 38vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
 .jumbotron__heading {
-  font-family: "Righteous", sans-serif;
-  color: #5c5c5c;
-  font-size: 3.1rem;
-  letter-spacing: 0.2rem;
+  margin-left: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
