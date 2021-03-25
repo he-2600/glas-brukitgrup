@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     &__image {
         background: url("../../images/landing.jpg") no-repeat center;
@@ -30,6 +31,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;    
+    }
+
+    &__logo {
+        position: absolute;
+        top: 2rem;
+        left: -3rem;
     }
 }
 
