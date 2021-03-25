@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: colors.$shadow;
 }
 
 .landing {
@@ -25,5 +25,24 @@ body {
         background-size: cover;
         width: 154rem;
         height: 98vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+}
+
+.jumbotron {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__heading {
+        font-family: fonts.$main;
+        color: colors.$dusk;
+        font-size: 3.1rem;
+        letter-spacing: .2rem;
     }
 }
