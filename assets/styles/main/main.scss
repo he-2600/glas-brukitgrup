@@ -1,0 +1,29 @@
+// ***** Authored Dependencies *****
+
+@use "../base/colors";
+@use "../base/fonts";
+
+// ***** Generic *****
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000;
+}
+
+.landing {
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        background: url("../../images/landing.jpg") no-repeat center;
+        background-size: cover;
+        width: 154rem;
+        height: 98vh;
+    }
+}
