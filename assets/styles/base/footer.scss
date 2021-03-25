@@ -1,4 +1,7 @@
 
+@use "colors";
+@use "fonts";
+
 :root {
     font-size: 62.5%;
 }
@@ -9,7 +12,7 @@ body{
 }
 
 footer {
-    background-color: colors.$main;
+    background-color: colors.$dark;
     bottom: 0;
 }
 
