@@ -7,7 +7,7 @@ body {
 }
 
 .landing {
-  max-width: 100vw;
+  max-width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -38,6 +38,35 @@ body {
 }
 .jumbotron__heading {
   margin-left: 1.5rem;
+}
+
+@media screen and (min-width: 370px) {
+  .jumbotron__heading {
+    width: 36rem;
+    height: 18rem;
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .jumbotron__heading {
+    width: 52rem;
+    height: 26rem;
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-height: 1200px) {
+  .jumbotron__heading {
+    width: 66rem;
+    height: 33rem;
+    margin-left: 3rem;
+  }
+}
+@media (orientation: landscape) {
+  .jumbotron__heading {
+    width: 20rem;
+    height: 10rem;
+    margin-left: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
