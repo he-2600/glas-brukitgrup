@@ -1,8 +1,8 @@
-<svg width="144" height="96" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="landing-logo--lg" viewBox="0 0 144 96">
-        <circle cx="19.4446" cy="15.6194" r="14.6194" stroke="#5C5C5C" stroke-width="2"/>
-        <circle cx="2.23135" cy="14.9819" r="1.73135" stroke="#5C5C5C"/>
-        <circle cx="28.4626" cy="15.7122" r="14.6194" transform="rotate(-179.659 28.4626 15.7122)" stroke="#5C5C5C" fill="none" stroke-width="2"/>
-        <circle cx="45.6719" cy="16.4522" r="1.73135" transform="rotate(-179.659 45.6719 16.4522)" stroke="#5C5C5C"/>
+<svg width="192" height="128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="landing-logo--lg" viewBox="0 0 192 128">
+        <circle cx="30.5" cy="24.5" r="23" stroke="#5C5C5C" stroke-width="3"/>
+        <circle cx="3.5" cy="24.5" r="2.5" stroke="#5C5C5C" stroke-width="2"/>
+        <circle cx="44.6455" cy="24.6455" r="23" transform="rotate(-179.659 44.6455 24.6455)" fill="none" stroke="#5C5C5C" stroke-width="3"/>
+        <circle cx="71.5208" cy="24.5208" r="2.5" transform="rotate(-179.659 71.5208 24.5208)" stroke="#5C5C5C" stroke-width="2"/>
     </symbol>
 </svg>
