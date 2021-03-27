@@ -37,6 +37,10 @@ body {
         position: absolute;
         top: 2rem;
         left: -3rem;
+
+        &--large {
+            display: none;
+        }
     }
 }
 
@@ -50,7 +54,7 @@ body {
 
 // ***** Media Queries *****
 
-@media screen and (min-width: 481px) {
+@media (min-width: 481px) and (min-height: 481px) {
 
     .landing__image {
         display: none;
@@ -63,6 +67,17 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;        
+        }
+    }
+
+    .landing__logo {
+        display: none;
+
+        &--large {
+            display: block;
+            position: absolute;
+            top: 4rem;
+            left: 0;    
         }
     }
 }

@@ -28,6 +28,9 @@ body {
   top: 2rem;
   left: -3rem;
 }
+.landing__logo--large {
+  display: none;
+}
 
 .button-container {
   width: 100%;
@@ -37,7 +40,7 @@ body {
   align-items: flex-end;
 }
 
-@media screen and (min-width: 481px) {
+@media (min-width: 481px) and (min-height: 481px) {
   .landing__image {
     display: none;
   }
@@ -49,6 +52,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .landing__logo {
+    display: none;
+  }
+  .landing__logo--large {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    left: 0;
   }
 }
 
