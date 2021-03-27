@@ -47,3 +47,22 @@ body {
     justify-content: center;
     align-items: flex-end;
 }
+
+// ***** Media Queries *****
+
+@media screen and (min-width: 481px) {
+
+    .landing__image {
+        display: none;
+
+        &--large {
+            background: url("../../images/landing.jpg") no-repeat center;
+            background-size: cover;
+            width: 100vw;
+            height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;        
+        }
+    }
+}

@@ -37,4 +37,19 @@ body {
   align-items: flex-end;
 }
 
+@media screen and (min-width: 481px) {
+  .landing__image {
+    display: none;
+  }
+  .landing__image--large {
+    background: url("../../images/landing.jpg") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
