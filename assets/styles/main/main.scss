@@ -45,13 +45,15 @@ body {
     }
 }
 
-.button {
+.btn {
     font-family: fonts.$main;
     font-size: 1.8rem;
-    color: colors.$logo;
-    background-color: colors.$dusk;
+    background-color: colors.$dark;
     border-radius: 2rem;
     padding: .3em .8em;
+    outline-style: none;
+    border: .1rem solid colors.$shadow;
+    box-shadow: 0 0 .2rem .25rem colors.$light;
 
     &-container {
         width: 100%;
@@ -60,56 +62,101 @@ body {
         justify-content: center;
         align-items: flex-end;
     }
+
+    &__link {
+        text-decoration: none;
+        color: colors.$logo;
+
+        & > span {
+            color: colors.$light;
+            font-size: 1.6rem;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            display: inline-block;
+        }
+    }
+    
+    &:active {
+        font-size: 1.72rem;
+        box-shadow: 0 0 .2rem .5rem colors.$light;
+    }
 }
 
 // ***** Media Queries *****
 
 @media (min-width: 481px) and (min-height: 481px) {
-    .landing__image {
-        display: none;
+    .landing {   
 
-        &--large {
-            background: url("../../images/landing.jpg") no-repeat center;
-            background-size: cover;
-            width: 90vw;
-            height: 98vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            -webkit-animation-name: landing-zoom;
-            -moz-animation-name: landing-zoom;
-            -o-animation-name: landing-zoom;
-            animation-name: landing-zoom;
-            -webkit-animation-duration: 5s;
-            -moz-animation-duration: 5s;
-            -o-animation-duration: 5s;
-            animation-duration: 5s;
-            -webkit-animation-fill-mode: forwards;
-            -moz-animation-fill-mode: forwards;
-            -o-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+        &__logo {
+            display: none;
+
+            &--large {
+                display: block;
+                position: absolute;
+                top: 6rem;
+                left:2rem;
+                z-index: 1;    
+            }
+        }
+
+        &__image {
+            display: none;
+
+            &--large {
+                background: url("../../images/landing.jpg") no-repeat center;
+                background-size: cover;
+                width: 90vw;
+                height: 98vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                -webkit-animation-name: landing-zoom;
+                -moz-animation-name: landing-zoom;
+                -o-animation-name: landing-zoom;
+                animation-name: landing-zoom;
+                -webkit-animation-duration: 5s;
+                -moz-animation-duration: 5s;
+                -o-animation-duration: 5s;
+                animation-duration: 5s;
+                -webkit-animation-fill-mode: forwards;
+                -moz-animation-fill-mode: forwards;
+                -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+            }
         }
     }
 
-    .landing__logo {
-        display: none;
+    @keyframes landing-zoom {
+        from {
+            transform: scale(1);
+        }
+    
+        to {
+            transform: scale(1.1);
+        }
+    }
 
-        &--large {
-            display: block;
-            position: absolute;
-            top: 6rem;
-            left:2rem;
-            z-index: 1;    
+    .btn {
+        font-size: 3rem;
+        border-radius: 3rem;
+        padding: .2em .7em;
+        border: .2rem solid colors.$shadow;
+        box-shadow: 0 0 .2rem .4rem colors.$light;
+
+
+        &__link > span {
+            font-size: 2.7rem;
+        }
+
+        &:hover, 
+        :focus {
+            background-color: colors.$dusk;
+        }
+        &:active {
+            font-size: 2.9rem;
+            box-shadow: 0 0 .25rem .53rem colors.$light;
         }
     }
 }
 
-@keyframes landing-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
