@@ -34,6 +34,8 @@ body {
         align-items: center;    
     }
 
+    // ***** Logo *****
+
     &__logo {
         position: absolute;
         top: 2rem;
@@ -44,6 +46,8 @@ body {
         }
     }
 }
+
+// ***** Button *****
 
 .btn {
     font-family: fonts.$main;
@@ -88,6 +92,8 @@ body {
 @media (min-width: 481px) and (min-height: 481px) {
     .landing {   
 
+        // ***** Logo *****
+
         &__logo {
             display: none;
 
@@ -100,6 +106,8 @@ body {
             }
         }
 
+        // ***** Background Image ***** 
+        
         &__image {
             display: none;
 
@@ -137,13 +145,14 @@ body {
         }
     }
 
+    // ***** Button *****
+
     .btn {
         font-size: 3rem;
         border-radius: 3rem;
         padding: .2em .7em;
         border: .2rem solid colors.$shadow;
         box-shadow: 0 0 .2rem .4rem colors.$light;
-
 
         &__link > span {
             font-size: 2.7rem;
@@ -153,10 +162,10 @@ body {
         :focus {
             background-color: colors.$dusk;
         }
+
         &:active {
             font-size: 2.9rem;
             box-shadow: 0 0 .25rem .53rem colors.$light;
         }
     }
 }
-
