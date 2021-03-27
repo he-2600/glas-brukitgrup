@@ -88,8 +88,9 @@ body {
         &--large {
             display: block;
             position: absolute;
-            top: 9rem;
-            left:2rem;    
+            top: 6rem;
+            left:2rem;
+            z-index: 1;    
         }
     }
 }

@@ -73,8 +73,9 @@ body {
   .landing__logo--large {
     display: block;
     position: absolute;
-    top: 9rem;
+    top: 6rem;
     left: 2rem;
+    z-index: 1;
   }
 }
 @keyframes landing-zoom {
