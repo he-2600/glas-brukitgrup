@@ -22,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 
     &__image {
         background: url("../../images/landing-mobile.jpg") no-repeat center;
@@ -55,18 +56,29 @@ body {
 // ***** Media Queries *****
 
 @media (min-width: 481px) and (min-height: 481px) {
-
     .landing__image {
         display: none;
 
         &--large {
             background: url("../../images/landing.jpg") no-repeat center;
             background-size: cover;
-            width: 100vw;
+            width: 90vw;
             height: 98vh;
             display: flex;
             justify-content: center;
-            align-items: center;        
+            align-items: center;
+            -webkit-animation-name: landing-zoom;
+            -moz-animation-name: landing-zoom;
+            -o-animation-name: landing-zoom;
+            animation-name: landing-zoom;
+            -webkit-animation-duration: 5s;
+            -moz-animation-duration: 5s;
+            -o-animation-duration: 5s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
         }
     }
 
@@ -76,8 +88,18 @@ body {
         &--large {
             display: block;
             position: absolute;
-            top: 4rem;
-            left: 0;    
+            top: 9rem;
+            left:2rem;    
         }
+    }
+}
+
+@keyframes landing-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
     }
 }
