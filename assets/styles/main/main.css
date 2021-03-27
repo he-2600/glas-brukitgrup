@@ -33,6 +33,14 @@ body {
   display: none;
 }
 
+.button {
+  font-family: "Righteous", sans-serif;
+  font-size: 1.8rem;
+  color: #fb7200;
+  background-color: #5c5c5c;
+  border-radius: 2rem;
+  padding: 0.3em 0.8em;
+}
 .button-container {
   width: 100%;
   height: 30%;

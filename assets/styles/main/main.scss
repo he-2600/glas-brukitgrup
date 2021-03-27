@@ -45,12 +45,21 @@ body {
     }
 }
 
-.button-container {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.button {
+    font-family: fonts.$main;
+    font-size: 1.8rem;
+    color: colors.$logo;
+    background-color: colors.$dusk;
+    border-radius: 2rem;
+    padding: .3em .8em;
+
+    &-container {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 
 // ***** Media Queries *****
