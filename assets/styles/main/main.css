@@ -47,6 +47,7 @@ body {
   outline-style: none;
   border: 0.1rem solid #000;
   box-shadow: 0 0 0.2rem 0.25rem #e8e8e8;
+  font-size: 1.8rem;
 }
 .landing-btn__link {
   text-decoration: none;

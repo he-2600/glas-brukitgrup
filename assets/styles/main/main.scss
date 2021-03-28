@@ -62,6 +62,7 @@ body {
 
     &-btn {
         @include button;
+        font-size: 1.8rem;
     }    
 }
 
