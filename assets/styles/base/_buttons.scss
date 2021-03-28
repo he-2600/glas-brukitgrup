@@ -1,3 +1,29 @@
-@mixin foo {
+@mixin button {
+    font-family: fonts.$main;
+    font-size: 1.8rem;
+    background-color: colors.$dark;
+    border-radius: 3rem;
+    padding: .3em .8em;
+    outline-style: none;
+    border: .1rem solid colors.$shadow;
+    box-shadow: 0 0 .2rem .25rem colors.$light;
 
+    &__link {
+        text-decoration: none;
+        color: colors.$logo;
+
+        & > span {
+            color: colors.$light;
+            font-size: 1.6rem;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            display: inline-block;
+        }
+    }
+    
+    &:active {
+        font-size: 1.72rem;
+        box-shadow: 0 0 .2rem .5rem colors.$light;
+    }
 }
