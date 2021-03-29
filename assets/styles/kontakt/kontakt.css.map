@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["kontakt.scss"],"names":[],"mappings":"AAQA;EACI;;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA","file":"kontakt.css"}
+{"version":3,"sourceRoot":"","sources":["kontakt.scss","../base/_colors.scss"],"names":[],"mappings":"AAQA;EACI;;;AAGJ;EACI,kBCbG;;;ADgBP;EACI;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA","file":"kontakt.css"}
