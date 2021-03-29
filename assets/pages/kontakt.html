@@ -48,46 +48,50 @@
         <div class="contact__image">
 
             <!-- ***** Header ***** -->
-            <header class="contact__container-header">
+            <header class="contact-header">
                 <h1 class="contact__heading">Kontakta Oss</h1>
             </header>
             <!-- ***** ./Header ***** -->
 
             <!-- ***** Form ***** -->
-            <div class="contact__container-form">
-                <form class="contact__form" action="#" method="post"  target="_blank">
-                   <ul>
-                    <li class="contact__form-item">
-                        <label class="contact__form-label" for="fname">Förnamn</label><br>
-                        <input class="contact__form-input" type="text" id="fname" name="fname" required>
-                    </li>
-                    <li  class="contact__form-item">
-                        <label class="contact__form-label" for="lname">Efternamn</label><br>
-                        <input class="contact__form-input" type="text" id="lname" name="lname" required>
-                    </li>
-                    <li  class="contact__form-item">
-                        <label class="contact__form-label" for="email">Epost</label><br>
-                        <input class="contact__form-input" type="email" id="email" name="email" required>
-                    </li>
-                    <li  class="contact__form-item">
-                        <label class="contact__form-label" for="phone">Telefon</label><br>
-                        <input class="contact__form-input" type="phone" id="email" name="phone">
-                    </li>
-                   </ul> 
-                </form>
-                <form action="#" method="post"  target="_blank">
-                    <label class="contact__form-label" for="message">Meddelande</label><br>
-                    <textarea
-                    class="contact__form-input"
-                    name="message"
-                    id="message"
-                    rows="6"
-                    cols="10">
-                    </textarea>
-                    <div class="contact__form-button">
-                        <button class="contact__btn">Send<span>IT</span></button>
-                    </div>
-                </form>
+            <div class="contact-form">
+                <div class="contact-form__wrapper">
+                    <form class="contact-form__container" action="#" method="post"  target="_blank">
+                        <div class="contact-form__item">
+                            <label class="contact-form__label" for="fname">Förnamn</label>
+                            <input class="contact-form__input" type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__label" for="lname">Efternamn</label>
+                            <input class="contact-form__input" type="text" id="lname" name="lname" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__label" for="email">Epost</label>
+                            <input class="contact-form__input" type="email" id="email" name="email" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__label" for="phone">Telefon</label>
+                            <input class="contact-form__input" type="phone" id="email" name="phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-form__wrapper">
+                    <form class="contact-form__container" action="#" method="post"  target="_blank">
+                        <div class="contact-form__item">
+                            <label class="contact-form__label" for="message">Meddelande</label>
+                            <textarea
+                            class="contact-form__input contact-form__input--large"
+                            name="message"
+                            id="message"
+                            rows="6"
+                            cols="10">
+                            </textarea>
+                        </div>
+                        <div class="contact-form__btn-container">
+                            <button class="contact-form__button">Send<span>IT</span></button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!-- ***** ./Form ***** -->
 
