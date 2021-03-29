@@ -265,6 +265,9 @@ footer {
 .contact__container-form {
   width: 85%;
   height: 85%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 .contact__image {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../images/glasbruk-etc.jpg") no-repeat fixed;
