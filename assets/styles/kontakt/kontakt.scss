@@ -3,6 +3,8 @@
 @use "../base/colors";
 @use "../base/fonts";
 @import "../base/buttons";
+@import "../base/navbar";
+@import "../base/footer";
 
 // ***** Generic *****
 
@@ -10,16 +12,14 @@
     font-size: 62.5%;
 }
 
-body {
-    background-color: colors.$dark;
-}
-
 .contact {
     width: 100%;
     height: 100vh;
 
+    // ***** Background Image *****
+
     &__image {
-        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../images/glasbruk-etc.jpg") no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../images/glasbruk-etc.jpg") no-repeat fixed;
         background-size: cover;
         background-position: 30%;
         width: 100%;
