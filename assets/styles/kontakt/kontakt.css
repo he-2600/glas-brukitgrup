@@ -386,8 +386,8 @@ body {
   display: inline-block;
 }
 .contact-form__button:active {
-  font-size: 2.3rem;
-  box-shadow: 0 0 0.2rem 0.6rem #e8e8e8;
+  font-size: 2.1rem;
+  box-shadow: 0 0 0.2rem 0.5rem #e8e8e8;
 }
 
 @media (min-width: 481px) and (min-height: 481px) {
@@ -424,6 +424,10 @@ body {
   .contact-form__button > span {
     font-size: 2.3rem;
   }
+  .contact-form__button:active {
+    font-size: 2.35rem;
+    box-shadow: 0 0 0.2rem 0.6rem #e8e8e8;
+  }
 }
 @media screen and (min-width: 1025px) {
   .contact-header {
@@ -446,6 +450,10 @@ body {
   }
   .contact-form__container {
     justify-content: space-between;
+  }
+  .contact-form__button:hover,
+.contact-form :focus:not(.contact-form__input) {
+    background-color: #5c5c5c;
   }
 }
 
