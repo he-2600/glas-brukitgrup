@@ -357,7 +357,7 @@ body {
   outline-style: none;
   border: 0.1rem solid #000;
   box-shadow: 0 0 0.2rem 0.25rem #e8e8e8;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #fb7200;
   padding: 0.3em 1.2em;
 }
@@ -377,9 +377,9 @@ body {
   font-size: 1.72rem;
   box-shadow: 0 0 0.2rem 0.5rem #e8e8e8;
 }
-.contact-form__button span {
+.contact-form__button > span {
   color: #e8e8e8;
-  font-size: 2.3rem;
+  font-size: 2rem;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -415,6 +415,14 @@ body {
   }
   .contact-form__label {
     font-size: 2rem;
+  }
+  .contact-form__button {
+    font-size: 2.5rem;
+    border: 0.2rem solid #000;
+    box-shadow: 0 0 0.2rem 0.4rem #e8e8e8;
+  }
+  .contact-form__button > span {
+    font-size: 2.3rem;
   }
 }
 @media screen and (min-width: 1025px) {
