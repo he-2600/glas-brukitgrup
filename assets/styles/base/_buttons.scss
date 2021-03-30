@@ -10,10 +10,9 @@
 
     &__link {
         text-decoration: none;
-        // color: colors.$logo;
     }
 
-    & > span {
+    & span {
         color: colors.$light;
         font-size: 1.6rem;
         -webkit-transform: rotate(-90deg);

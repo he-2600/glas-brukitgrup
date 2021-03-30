@@ -252,6 +252,10 @@ footer {
   font-size: 62.5%;
 }
 
+body {
+  background-color: #333;
+}
+
 .contact {
   width: 100%;
   min-height: 100vh;
@@ -353,7 +357,9 @@ footer {
   outline-style: none;
   border: 0.1rem solid #000;
   box-shadow: 0 0 0.2rem 0.25rem #e8e8e8;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  color: #fb7200;
+  padding: 0.3em 1.2em;
 }
 .contact-form__button__link {
   text-decoration: none;
@@ -370,6 +376,18 @@ footer {
 .contact-form__button:active {
   font-size: 1.72rem;
   box-shadow: 0 0 0.2rem 0.5rem #e8e8e8;
+}
+.contact-form__button span {
+  color: #e8e8e8;
+  font-size: 2.3rem;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+.contact-form__button:active {
+  font-size: 2.3rem;
+  box-shadow: 0 0 0.2rem 0.6rem #e8e8e8;
 }
 
 @media (min-width: 481px) and (min-height: 481px) {
