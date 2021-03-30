@@ -3,6 +3,7 @@
 @use "../base/colors";
 @use "../base/fonts";
 @import "../base/buttons";
+@import "../base/flex-col";
 @import "../base/scrollbar";
 @import "../base/navbar";
 @import "../base/footer";
@@ -31,8 +32,7 @@
         background-position: 30%;
         width: 100%;
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+        @include column;
         align-items: center;
     }
     
@@ -61,8 +61,7 @@
 .contact-form {
     width: 100%;
     height: 80rem;
-    display: flex;
-    flex-direction: column;
+    @include column;
     overflow: hidden;
 
     &__wrapper {
@@ -75,14 +74,12 @@
     &__container {
         width: 78%;
         max-width: 50rem;
-        display: flex;
-        flex-direction: column;
+        @include column;
         justify-content: space-evenly;
     }
 
     &__item {
-        display: flex;
-        flex-direction: column;
+        @include column;
     }
 
     &__input {
@@ -90,7 +87,7 @@
         background-color: colors.$light;
         opacity: 80%;
         border-radius: .3rem;
-        border: .15rem solid colors.$shadow;
+        border: .1rem solid colors.$shadow;
         box-shadow: 0 0 0 .3rem colors.$light;
         font-family: fonts.$secondary;
         font-size: 1.6rem;
@@ -121,8 +118,64 @@
 @media (min-width: 481px) and (min-height: 481px) {
     .contact {
 
+        &-header {
+            margin-bottom: 2rem;
+        }
+
         &__heading {
             font-size: 4.3rem;
+        }
+    }
+
+    .contact-form {
+        height: 120rem;
+
+        &__wrapper {
+            height: 36%;
+        }
+
+        &__input {
+            height: 4.2rem;
+            border: .2rem solid colors.$shadow;
+            box-shadow: 0 0 0 .5rem colors.$light;
+            font-size: 2rem;
+
+            &--large {
+                height: 25rem;
+            }
+        }
+       
+
+        &__label {
+            font-size: 2rem;
+        }
+
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .contact {
+        
+        &-header {
+            height: 20vh;
+            margin: 0;
+        }
+
+        &__heading {
+            margin: 0;
+        }
+    }
+
+    .contact-form {
+        width: 90%;
+        max-width: 120rem;
+        height: 60rem;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        &__wrapper {
+            height: 80%;
         }
     }
 }
