@@ -6,19 +6,20 @@
     outline-style: none;
     border: .1rem solid colors.$shadow;
     box-shadow: 0 0 .2rem .25rem colors.$light;
+    color: colors.$logo;
 
     &__link {
         text-decoration: none;
-        color: colors.$logo;
+        // color: colors.$logo;
+    }
 
-        & > span {
-            color: colors.$light;
-            font-size: 1.6rem;
-            -webkit-transform: rotate(-90deg);
-            -moz-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-            display: inline-block;
-        }
+    & > span {
+        color: colors.$light;
+        font-size: 1.6rem;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        display: inline-block;
     }
     
     &:active {

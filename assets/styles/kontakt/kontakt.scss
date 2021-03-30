@@ -40,7 +40,7 @@
 
     &-header {
         width: 90%;
-        height: 15vh;
+        height: 18vh;
         display: flex;
         align-items: flex-end;
     }
@@ -76,6 +76,10 @@
         max-width: 50rem;
         @include column;
         justify-content: space-evenly;
+
+        &--message {
+            justify-content: space-between;
+        }
     }
 
     &__item {
@@ -110,6 +114,25 @@
         color: colors.$light;
         letter-spacing: .08rem;
         margin-bottom: .5rem;
+    }
+
+    &__button-container {
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+
+    &__btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    &__button {
+        @include button;
+        font-size: 1.8rem;
     }
 }
 
@@ -157,7 +180,6 @@
     .contact {
         
         &-header {
-            height: 20vh;
             margin: 0;
         }
 
@@ -175,7 +197,11 @@
         align-items: center;
 
         &__wrapper {
-            height: 80%;
+            height: 65%;
+        }
+
+        &__container {
+            justify-content: space-between;
         }
     }
 }
