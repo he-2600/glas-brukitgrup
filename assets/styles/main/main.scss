@@ -63,6 +63,26 @@ body {
     &-btn {
         @include button;
         font-size: 1.8rem;
+        padding: .3em .8em;
+
+        &__link {
+            text-decoration: none;
+            color: colors.$logo;
+
+            & > span {
+                color: colors.$light;
+                font-size: 1.6rem;
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+                display: inline-block;
+            }
+            
+            &:active {
+                font-size: 1.72rem;
+                box-shadow: 0 0 .2rem .5rem colors.$light;
+            }
+        }
     }    
 }
 
