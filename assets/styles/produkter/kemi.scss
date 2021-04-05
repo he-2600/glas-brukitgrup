@@ -1,0 +1,77 @@
+$dark:#333333; 
+$dusk: #5c5c5c; 
+$light: #e8e8e8; 
+$twilight: #7b7b7b; 
+$logo: #FB7200;
+$shadow: #000;   
+$main: 'Righteous', sans-serif;
+$secondary:'Poppins', sans-serif; 
+
+body {
+    background: $dark;
+}
+
+.title {
+    color: $logo;
+    font-family:$main; 
+    text-align: center;
+    font-size: 3rem;
+    text-shadow:  1rem 1rem 2rem $shadow;
+  }
+
+  @media screen and (max-width: 48rem) {
+      .title {
+          color: $shadow;
+          font-size: 2rem;
+          font-family: $secondary;
+      }
+}
+
+
+.container {
+    display: grid;
+    max-width: 87,5rem;
+    width: 100%;
+    padding: 0 6rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-gap: 3rem;
+
+}
+.column-left {
+    grid-column: 1/2;
+}
+
+.column-middle {
+    grid-column: 2/3;
+}
+
+.column-right {
+    grid-column: 3/4;
+}
+
+img {
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1rem solid $twilight;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem 0.3rem $shadow;
+}
+@media screen and (max-width: 48rem) {
+    img  {
+        width: 100%;
+        border: 0.6rem solid $shadow;
+        border-radius: 1rem;
+
+    }
+}
