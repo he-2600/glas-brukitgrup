@@ -346,8 +346,8 @@ footer {
 
 .main {
   width: 100%;
-  max-width: 170rem;
-  height: 75rem;
+  max-width: 140rem;
+  height: 60rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -358,8 +358,8 @@ footer {
 
 .main__contain {
   width: 100%;
-  max-width: 160rem;
-  height: 75rem;
+  max-width: 140rem;
+  height: 60rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,8 +373,8 @@ footer {
 
 .main__postion {
   width: 100%;
-  max-width: 60rem;
-  height: 45rem;
+  max-width: 50rem;
+  height: 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,8 +386,8 @@ footer {
 
 .main__text {
   width: 100%;
-  max-width: 80rem;
-  height: 78rem;
+  max-width: 70rem;
+  height: 60rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -397,7 +397,6 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 1.7rem;
   -webkit-box-shadow: 0 0 0 0.3rem rgba(0, 0, 0, 0.7);
@@ -406,8 +405,8 @@ footer {
 
 .main__box {
   width: 100%;
-  max-width: 70rem;
-  height: 65rem;
+  max-width: 68rem;
+  height: 56rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,7 +591,7 @@ footer {
   }
   .main__info {
     height: 12rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     letter-spacing: .1rem;
   }
 }
