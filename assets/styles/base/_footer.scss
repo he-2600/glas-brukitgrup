@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> om-oss
 @use "colors";
 @use "fonts";
 
@@ -12,7 +15,11 @@ body{
 }
 
 footer {
+<<<<<<< HEAD
     background-color: colors.$dark;
+=======
+    background-color: $dark;
+>>>>>>> om-oss
     bottom: 0;
 }
 
@@ -41,11 +48,19 @@ footer {
 }
 
 .footer-contact {
+<<<<<<< HEAD
     font-family: fonts.$secondary;
     font-style: normal;
     font-weight: normal;
     font-size: 1.8rem;
     color: colors.$logo;
+=======
+    font-family: $secondary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: $logo;
+>>>>>>> om-oss
     margin: 0;
     padding: 0;
 }
@@ -62,12 +77,20 @@ footer {
 }
 
 .footer-ul li {
+<<<<<<< HEAD
     font-family: fonts.$secondary;
+=======
+    font-family: $secondary;
+>>>>>>> om-oss
     font-style: normal;
     font-weight: normal;
     font-size: 1.6rem;
     line-height: 2.7rem;
+<<<<<<< HEAD
     color: colors.$light;
+=======
+    color: $light;
+>>>>>>> om-oss
 }
 
 .footer-icons {
@@ -77,38 +100,70 @@ footer {
 }
 
 .fa-instagram {
+<<<<<<< HEAD
     color:colors.$light;
     font-size: 2.4rem;
 
     &:hover {
         color:colors.$twilight;
+=======
+    color: $light;
+    font-size: 2.4rem;
+
+    &:hover {
+        color: $twilight;
+>>>>>>> om-oss
     }
 }
 
 .fa-linkedin {
+<<<<<<< HEAD
     color:colors.$light;
     font-size: 2.3rem;
 
     &:hover {
         color:colors.$twilight; 
+=======
+    color: $light;
+    font-size: 2.3rem;
+
+    &:hover {
+        color: $twilight; 
+>>>>>>> om-oss
     }
 }
 
 .fa-facebook-square {
+<<<<<<< HEAD
     color:colors.$light;
     font-size: 2.3rem;
 
     &:hover {
         color:colors.$twilight; 
+=======
+    color: $light;
+    font-size: 2.3rem;
+
+    &:hover {
+        color: $twilight; 
+>>>>>>> om-oss
     }
 }
 
 .fa-twitter-square {
+<<<<<<< HEAD
     color:colors.$light;
     font-size: 2.3rem;
 
     &:hover {
         color:colors.$twilight; 
+=======
+    color: $light;
+    font-size: 2.3rem;
+
+    &:hover {
+        color: $twilight; 
+>>>>>>> om-oss
     }
 }
 
