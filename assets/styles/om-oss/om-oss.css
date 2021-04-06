@@ -1,5 +1,20 @@
-@use "colors";
-@use "fonts";
+@media screen and (min-width: 1025px) {
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #333;
+    border-radius: 1remx;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+    border-radius: 1rem;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fb7200;
+  }
+}
+
 :root {
   font-size: 62.5%;
 }
@@ -123,8 +138,7 @@ body {
   }
 }
 
-@use "colors";
-@use "fonts";
+
 :root {
   font-size: 62.5%;
 }
