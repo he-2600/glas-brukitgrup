@@ -521,7 +521,7 @@ footer {
   .main__box {
     width: 100%;
     max-width: 45rem;
-    height: 29rem;
+    height: 30rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -532,7 +532,7 @@ footer {
     margin-bottom: 3rem;
   }
   .main__info {
-    height: 15rem;
+    height: 10rem;
     font-size: 1.4rem;
     letter-spacing: .1rem;
   }
