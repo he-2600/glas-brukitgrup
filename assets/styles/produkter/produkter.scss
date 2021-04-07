@@ -1,5 +1,6 @@
 @import "../base/navbar";
 @import "../base/footer"; 
+@import "../base/scrollbar";
 
 
 $dark:#333333; 
@@ -14,8 +15,8 @@ $secondary:'Poppins', sans-serif;
 
 body{
     background: $dark;
-    min-height: 100vh;
 }
+
 .title {
     color: $logo;
     font-family:$main; 
@@ -37,7 +38,6 @@ body{
 .container {
     width: 100%;
     max-width: 87.5rem;
-    min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
