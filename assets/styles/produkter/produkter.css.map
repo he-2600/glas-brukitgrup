@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "produkter.scss"
-    ],
-    "names": [],
-    "file": "produkter.css"
-}
+{"version":3,"sourceRoot":"","sources":["produkter.scss"],"names":[],"mappings":"AAUA;EAEI,YAZE;;;AAcN;EACI,OAXG;EAYH,aAVG;EAWH;EACA;EACA;;;AAEF;EACE;IACI;IACA,OAnBC;IAoBD;IACA,aAnBG;;;AAuBX;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA,kBAtCE;;;AA0CN;EACI;EACA;EACA;EACA;EACA;EACA;EACA,kBA9CO;EA+CP;EACA;EACA;;;AAGJ;EAEI,aAnDG;EAoDH;EACA,OAvDG;EAwDH;EACA;EACA;;;AAKJ;EACI;IAEI;IACA;IACA,kBAnEC;IAoED;IACA;IACA;IACA;;;AAIR;EACI;IACI;IACA,OAjFA;IAkFA","file":"produkter.css"}
