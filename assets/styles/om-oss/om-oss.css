@@ -460,7 +460,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1001px) {
   .om-oss {
     min-height: 1024px;
   }
