@@ -11,12 +11,13 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .header-logo {
   width: 19rem;
   margin-left: 10%;
-  padding: 2%;
+  padding: 5%;
 }
 
 .navbar-links ul {
@@ -63,6 +64,10 @@
 }
 
 @media (max-width: 638px) {
+  .header-logo {
+    padding: 2%;
+  }
+
   .toggle-button {
     display: flex;
   }
@@ -104,7 +109,7 @@
 
 footer {
   background-color: #333;
-  bottom: 0;
+  width: 100%;
 }
 
 .footer-wrapper {
@@ -223,6 +228,22 @@ footer {
     width: 100%;
     max-width: 60%;
     padding: 2%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #333;
+    border-radius: 1rem;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+    border-radius: 1rem;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fb7200;
   }
 }
 body {
