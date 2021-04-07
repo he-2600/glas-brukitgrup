@@ -227,6 +227,7 @@ footer {
 }
 body {
   background: #333333;
+  min-height: 100vh;
 }
 
 .title {
@@ -235,7 +236,7 @@ body {
   text-align: center;
   font-size: 3rem;
   text-shadow: 1rem 1rem 2rem #000;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 @media screen and (max-width: 48rem) {
@@ -249,7 +250,7 @@ body {
 .container {
   width: 100%;
   max-width: 87.5rem;
-  height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
