@@ -14,12 +14,13 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .header-logo {
     width: 19rem;
     margin-left: 10%;
-    padding: 2%;
+    padding: 5%;
 }
 
 .navbar-links ul {
@@ -68,6 +69,11 @@
 }
 
 @media (max-width: 638px) {
+
+    .header-logo {
+        padding: 2%;
+    }
+
     .toggle-button {
         display: flex;
     }
