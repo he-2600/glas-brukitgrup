@@ -149,7 +149,7 @@
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 10001px){
   .om-oss{
 
     min-height: 1024px;
@@ -199,7 +199,7 @@
        
         width: 100%;
         max-width: 50rem;
-        height: 55rem;
+        height: 35rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -209,22 +209,22 @@
     &__box{
         width: 100%;
         max-width: 45rem;
-        height: 50rem;
+        height: 30rem;
         display: flex; 
         
     }
 
 
     &__header2 {
-        height: 1rem;   
+        height: .3rem;   
         font-size: 2.4rem;
         margin-bottom: 3rem;
 
     }
 
     &__info{
-        height: 15rem;
-        font-size: 1.6rem;
+        height: 10rem;
+        font-size: 1.4rem;
         letter-spacing: .1rem;   
 
     }

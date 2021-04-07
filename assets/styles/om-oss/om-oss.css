@@ -460,7 +460,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1001px) {
   .om-oss {
     min-height: 1024px;
   }
@@ -506,7 +506,7 @@ footer {
   .main__text {
     width: 100%;
     max-width: 50rem;
-    height: 55rem;
+    height: 35rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -521,19 +521,19 @@ footer {
   .main__box {
     width: 100%;
     max-width: 45rem;
-    height: 50rem;
+    height: 30rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .main__header2 {
-    height: 1rem;
+    height: .3rem;
     font-size: 2.4rem;
     margin-bottom: 3rem;
   }
   .main__info {
-    height: 15rem;
-    font-size: 1.6rem;
+    height: 10rem;
+    font-size: 1.4rem;
     letter-spacing: .1rem;
   }
 }
