@@ -111,11 +111,11 @@ body {
   .landing-btn__link > span {
     font-size: 2.7rem;
   }
-  .landing-btn:hover,
-.landing-btn :focus {
+  .landing-btn__link:hover,
+.landing-btn__link :focus {
     background-color: #5c5c5c;
   }
-  .landing-btn:active {
+  .landing-btn__link:active {
     font-size: 2.9rem;
     box-shadow: 0 0 0.25rem 0.53rem #e8e8e8;
   }

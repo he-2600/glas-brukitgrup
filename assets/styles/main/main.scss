@@ -142,18 +142,22 @@ body {
             border: .2rem solid colors.$shadow;
             box-shadow: 0 0 .2rem .4rem colors.$light;
 
-            &__link > span {
-                font-size: 2.7rem;
-            }
+            &__link {
+            
+                & > span {
+                    font-size: 2.7rem;
+                }
+                
+                &:hover, 
+                :focus {
+                    background-color: colors.$dusk;
+                }
 
-            &:hover, 
-            :focus {
-                background-color: colors.$dusk;
-            }
+                &:active {
+                    font-size: 2.9rem;
+                    box-shadow: 0 0 .25rem .53rem colors.$light;
+                }
 
-            &:active {
-                font-size: 2.9rem;
-                box-shadow: 0 0 .25rem .53rem colors.$light;
             }
         }
     }
